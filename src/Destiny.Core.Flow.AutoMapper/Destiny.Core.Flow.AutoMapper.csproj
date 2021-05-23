@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <RepositoryUrl>https://github.com/DestinyCore/DestinyCore.Foundations</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/DestinyCore/DestinyCore.Foundations</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

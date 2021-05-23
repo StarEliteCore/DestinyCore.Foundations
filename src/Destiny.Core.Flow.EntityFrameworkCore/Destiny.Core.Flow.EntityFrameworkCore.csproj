@@ -5,6 +5,8 @@
     <RootNamespace>Destiny.Core.Flow</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.1</Version>
+    <PackageProjectUrl>https://github.com/DestinyCore/DestinyCore.Foundations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DestinyCore/DestinyCore.Foundations</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

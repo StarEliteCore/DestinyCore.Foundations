@@ -29,11 +29,11 @@ namespace Destiny.Core.Flow.Reflection
                 "Microsoft",
                 "Window",
             };
+            IEnumerable<Assembly> allAssemblies = Assembly.GetEntryAssembly().GetReferencedAssemblies().Where(x=> !filters.Any(x.Name.StartsWith)).Select(Assembly.Load).ToArray();
             List<Assembly> list = new List<Assembly>();
             var deps = DependencyContext.Default;
             //排除所有的系统程序集、Nuget下载包
             var libs = deps.CompileLibraries.Where(lib => !lib.Serviceable && lib.Type != "package" && !filters.Any(lib.Name.StartsWith));
-
             try
             {
                 foreach (var lib in libs)
@@ -47,8 +47,8 @@ namespace Destiny.Core.Flow.Reflection
 
                 throw ex;
             }
-
-            return list;
+            list.AddRange(allAssemblies);
+            return list.Distinct().ToList();
         }
 
         public static Assembly[] FindAllItems()

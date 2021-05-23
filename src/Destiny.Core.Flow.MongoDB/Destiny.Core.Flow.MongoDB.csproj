@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>Destiny.Core.Flow</RootNamespace>
+    <PackageProjectUrl>https://github.com/DestinyCore/DestinyCore.Foundations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DestinyCore/DestinyCore.Foundations</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

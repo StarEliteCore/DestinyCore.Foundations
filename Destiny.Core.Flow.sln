@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destiny.Core.Flow.MiniProfi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destiny.Core.Flow.AspNetCore", "src\Destiny.Core.Flow.AspNetCore\Destiny.Core.Flow.AspNetCore.csproj", "{40BACBCF-713A-4F38-ABE8-57B6BC3EC7A2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destiny.Core.Flow.Log4Net", "src\Destiny.Core.Flow.Log4Net\Destiny.Core.Flow.Log4Net.csproj", "{D66D00D9-0491-4D2A-A77E-6ED9BAA1509D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{40BACBCF-713A-4F38-ABE8-57B6BC3EC7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40BACBCF-713A-4F38-ABE8-57B6BC3EC7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40BACBCF-713A-4F38-ABE8-57B6BC3EC7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66D00D9-0491-4D2A-A77E-6ED9BAA1509D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66D00D9-0491-4D2A-A77E-6ED9BAA1509D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66D00D9-0491-4D2A-A77E-6ED9BAA1509D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66D00D9-0491-4D2A-A77E-6ED9BAA1509D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{7D118558-7701-4804-A42D-C0C81FC394D6} = {1249687C-582B-4A3E-8090-2AAF36AA3284}
 		{BF84625C-82CB-4F84-A799-F21F81E563F1} = {1249687C-582B-4A3E-8090-2AAF36AA3284}
 		{40BACBCF-713A-4F38-ABE8-57B6BC3EC7A2} = {1249687C-582B-4A3E-8090-2AAF36AA3284}
+		{D66D00D9-0491-4D2A-A77E-6ED9BAA1509D} = {1249687C-582B-4A3E-8090-2AAF36AA3284}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {468F450C-837F-4FCD-8E06-3E12690DDED6}

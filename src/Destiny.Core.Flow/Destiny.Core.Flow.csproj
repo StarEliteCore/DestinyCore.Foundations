@@ -3,7 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
+    <PackageProjectUrl>https://github.com/DestinyCore/DestinyCore.Foundations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DestinyCore/DestinyCore.Foundations</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
